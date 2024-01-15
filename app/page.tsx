@@ -14,7 +14,12 @@ export default function Home() {
         aspernatur dolore, molestias iste. Facere explicabo vel et fugiat eaque
         ducimus rem.
       </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus, ad, obcaecati nemo possimus pariatur omnis eaque delectus adipisci veritatis, officia fugit sit quasi! Qui dolores maiores nihil molestias itaque!</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+        doloribus, ad, obcaecati nemo possimus pariatur omnis eaque delectus
+        adipisci veritatis, officia fugit sit quasi! Qui dolores maiores nihil
+        molestias itaque!
+      </p>
     </>
   );
 }
