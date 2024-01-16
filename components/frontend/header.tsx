@@ -31,8 +31,8 @@ export default function Header() {
         <NavbarLink as={Link} href="/dashboard">
           Dashboard
         </NavbarLink>
-        <NavbarLink as={Link} href="/dashboard#blue-div">
-          Blue Dashboard
+        <NavbarLink as={Link} href="/about">
+          About
         </NavbarLink>
         <NavbarLink href="#">Pricing</NavbarLink>
         <NavbarLink href="#">Contact</NavbarLink>
