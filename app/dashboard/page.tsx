@@ -1,7 +1,19 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { Button } from "flowbite-react";
+
 export default function Dashboard() {
+  const router = useRouter();
+
   return (
     <>
       <h1>Hello, Dashboard page!</h1>
+
+      <Button color="blue" onClick={() => router.push("/")}>
+        Back to Home
+      </Button>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
         perspiciatis tempora dolorum, nihil, illum atque quod harum ea totam
