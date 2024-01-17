@@ -1,7 +1,7 @@
 export default function Shop({
   params,
 }: {
-  params: { categorySlug: [string] };
+  params: { categorySlug: string[] };
 }) {
   return (
     <>
